@@ -1,0 +1,18 @@
+{
+  "name": "liquity-challenge",
+  "version": "1.0.0",
+  "description": "Rick's challenge for Rick",
+  "main": "index.js",
+  "scripts": {
+    "build": "truffle compile",
+    "test": "truffle test",
+    "coverage": "truffle run coverage"
+  },
+  "author": "ricktobacco@gmail.com",
+  "license": "Unlicense",
+  "dependencies": {
+    "@openzeppelin/contracts": "^3.1.0",
+    "ganache-core": "^2.11.2",
+    "truffle": "^5.1.42"
+  }
+}
